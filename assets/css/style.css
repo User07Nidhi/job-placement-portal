@@ -1,0 +1,78 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Heading styles */
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 15px;
+}
+
+/* Link styles */
+a {
+    color: #4CAF50; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Footer styles */
+footer {
+    background: #333; /* Dark background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Add some space above the footer */
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    main {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em; /* Adjust heading size */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Adjust heading size */
+    }
+}
